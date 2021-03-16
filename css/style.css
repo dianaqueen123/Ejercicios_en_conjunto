@@ -1,0 +1,117 @@
+/* regla general para todos el documentos */
+*{  
+    margin: 0em; /*magen */
+    padding: 0em;
+}
+
+
+
+
+
+
+main{
+    width: 1200px; /* ancho de main */
+    margin: auto; /*magenes automaticos */
+    
+    
+}
+
+.seccion1{
+   background-color: rgb(236, 236, 236);
+   height: 550px;
+   width: 20%;
+   float: left;
+   color: aliceblue;
+   
+   
+   
+   
+}
+
+.estilo_menu{
+   margin-left: 40px;
+   margin-top: 50px;
+ 
+  
+}
+
+.seccion2{
+    background-color: rgb(202, 174, 255);
+    height: 550px;
+    width: 80%;
+    float: left;
+
+ }
+
+header{
+    height: 100px;
+    width: 1200px;
+    margin-top: 20px;
+    
+   
+    
+}
+
+.logo{
+    
+    width: 20%;
+    background-color:  rgb(139, 241, 255);
+    height: 150px;
+    background-image: url(../img/unicor\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    float: left;
+    
+    
+   
+}
+
+ .titulo{
+  
+    width: 80%;
+   
+   float: left;
+   line-height: 150px;
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   font-family:cursive;
+   background-color: rgb(89, 194, 255); 
+   text-shadow: 3px 4px rgb(194, 140, 255);
+}
+
+.inicio{ font-family:'Times New Roman', Times, serif; 
+    font-size: 30px;
+    
+    color: rgb(37, 36, 36);
+
+}
+    
+ 
+
+
+button:hover{  background-color: tomato;            }
+
+.botones{ border-bottom: rgb(255, 255, 255);
+     border-radius:5px ;
+     width: 150px;
+     background-color: rgb(219, 219, 219);
+     border-style:hidden
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
